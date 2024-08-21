@@ -1,0 +1,62 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : false,
+      "overwriteActivityTime" : false,
+      "description" : ""
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "RTSP",
+        "enable" : false,
+        "frameFolder" : "/var/tmp/",
+        "frameIntervalMs" : 250,
+        "height" : 480,
+        "saveVideo" : false,
+        "transport" : "udp",
+        "transportName" : null,
+        "url" : "rtsp://",
+        "videoDurationMin" : 5,
+        "videoFileFormat" : "'${deviceId}-'YYYY-MM-dd-HH-mm-ss.SSS'.mp4'",
+        "videoFolder" : "/var/tmp/",
+        "webPooling" : false,
+        "webPoolingInterval" : 250,
+        "width" : 640
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "5276c490-3f7a-11ef-b09e-0f1230ba9f1e"
+    },
+    "entityType" : "DEVICE",
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "66d51530-5fd8-11ef-938d-3161482f1cf3"
+    },
+    "label" : "",
+    "name" : "d-g2-1",
+    "ownerId" : null,
+    "softwareId" : null,
+    "type" : "videoProfile1"
+  },
+  "credentials" : {
+    "credentialsId" : "s7iKYzIvBfqFhmhIX4O0",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ],
+    "SHARED_SCOPE" : [ ]
+  }
+}
