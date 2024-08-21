@@ -1,9 +1,7 @@
 {
   "entityType" : "ENTITY_GROUP",
   "entity" : {
-    "additionalInfo" : {
-      "description" : ""
-    },
+    "additionalInfo" : null,
     "configuration" : {
       "columns" : [ {
         "type" : "ENTITY_FIELD",
@@ -11,33 +9,28 @@
         "sortOrder" : "DESC"
       }, {
         "type" : "ENTITY_FIELD",
-        "key" : "name",
-        "sortOrder" : "NONE"
-      }, {
-        "type" : "ENTITY_FIELD",
-        "key" : "device_profile",
-        "sortOrder" : "NONE"
-      }, {
-        "type" : "ENTITY_FIELD",
-        "key" : "label",
+        "key" : "title",
         "sortOrder" : "NONE"
       } ],
       "settings" : { },
       "actions" : { }
     },
     "edgeGroupAll" : false,
-    "externalId" : null,
-    "groupAll" : false,
+    "externalId" : {
+      "entityType" : "ENTITY_GROUP",
+      "id" : "b6c87d40-3f79-11ef-b3b9-cf02e18c4429"
+    },
+    "groupAll" : true,
     "id" : {
       "entityType" : "ENTITY_GROUP",
-      "id" : "04c05100-5fd5-11ef-938d-3161482f1cf3"
+      "id" : "b6c87d40-3f79-11ef-b3b9-cf02e18c4429"
     },
-    "name" : "g1",
+    "name" : "All",
     "ownerId" : {
-      "entityType" : "TENANT",
-      "id" : "b65b6390-3f79-11ef-b3b9-cf02e18c4429"
+      "entityType" : "CUSTOMER",
+      "id" : "b6c5e530-3f79-11ef-b3b9-cf02e18c4429"
     },
-    "type" : "DEVICE"
+    "type" : "DASHBOARD"
   },
   "relations" : [ ],
   "attributes" : {

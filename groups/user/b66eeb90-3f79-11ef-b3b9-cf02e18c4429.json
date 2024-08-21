@@ -1,9 +1,7 @@
 {
   "entityType" : "ENTITY_GROUP",
   "entity" : {
-    "additionalInfo" : {
-      "description" : ""
-    },
+    "additionalInfo" : null,
     "configuration" : {
       "columns" : [ {
         "type" : "ENTITY_FIELD",
@@ -11,15 +9,15 @@
         "sortOrder" : "DESC"
       }, {
         "type" : "ENTITY_FIELD",
-        "key" : "name",
+        "key" : "first_name",
         "sortOrder" : "NONE"
       }, {
         "type" : "ENTITY_FIELD",
-        "key" : "device_profile",
+        "key" : "last_name",
         "sortOrder" : "NONE"
       }, {
         "type" : "ENTITY_FIELD",
-        "key" : "label",
+        "key" : "email",
         "sortOrder" : "NONE"
       } ],
       "settings" : { },
@@ -27,21 +25,22 @@
     },
     "edgeGroupAll" : false,
     "externalId" : null,
-    "groupAll" : false,
+    "groupAll" : true,
     "id" : {
       "entityType" : "ENTITY_GROUP",
-      "id" : "04c05100-5fd5-11ef-938d-3161482f1cf3"
+      "id" : "b66eeb90-3f79-11ef-b3b9-cf02e18c4429"
     },
-    "name" : "g1",
+    "name" : "All",
     "ownerId" : {
       "entityType" : "TENANT",
       "id" : "b65b6390-3f79-11ef-b3b9-cf02e18c4429"
     },
-    "type" : "DEVICE"
+    "type" : "USER"
   },
   "relations" : [ ],
   "attributes" : {
     "SERVER_SCOPE" : [ ]
   },
-  "groupEntities" : true
+  "groupEntities" : true,
+  "permissions" : [ ]
 }
