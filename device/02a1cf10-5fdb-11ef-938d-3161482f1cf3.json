@@ -29,7 +29,7 @@
       "entityType" : "DEVICE",
       "id" : "02a1cf10-5fdb-11ef-938d-3161482f1cf3"
     },
-    "label" : "",
+    "label" : "-",
     "name" : "d7-2",
     "ownerId" : null,
     "softwareId" : null,
@@ -42,7 +42,15 @@
   },
   "relations" : [ ],
   "attributes" : {
-    "SERVER_SCOPE" : [ ],
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1724257971870,
+      "longValue" : null,
+      "strValue" : null
+    } ],
     "SHARED_SCOPE" : [ ]
   }
 }
