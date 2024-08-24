@@ -20,7 +20,28 @@
   "metaData" : {
     "connections" : null,
     "firstNodeIndex" : null,
-    "nodes" : [ ],
+    "nodes" : [ {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 123,
+        "layoutY" : 252
+      },
+      "configuration" : {
+        "version" : 0
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "7ae92960-6219-11ef-9481-1b4dd41317e6"
+      },
+      "name" : "asset-profile-switch",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.filter.TbAssetTypeSwitchNode"
+    } ],
     "ruleChainConnections" : null
   },
   "relations" : [ ],
