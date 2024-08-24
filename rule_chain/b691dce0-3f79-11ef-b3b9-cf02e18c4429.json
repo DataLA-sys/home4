@@ -11,7 +11,7 @@
     },
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
-      "id" : "b69d75a0-3f79-11ef-b3b9-cf02e18c4429"
+      "id" : "88aab680-5edc-11ef-9dc9-cb6d6d56df5a"
     },
     "id" : {
       "entityType" : "RULE_CHAIN",
@@ -71,7 +71,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "b6992fe0-3f79-11ef-b3b9-cf02e18c4429"
+        "id" : "88a8bab0-5edc-11ef-9dc9-cb6d6d56df5a"
       },
       "name" : "Save Timeseries",
       "ruleChainId" : null,
@@ -93,7 +93,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "b69b2bb0-3f79-11ef-b3b9-cf02e18c4429"
+        "id" : "88a9cc20-5edc-11ef-9dc9-cb6d6d56df5a"
       },
       "name" : "Save Client Attributes",
       "ruleChainId" : null,
@@ -114,7 +114,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "b69ba0e0-3f79-11ef-b3b9-cf02e18c4429"
+        "id" : "88aa1a40-5edc-11ef-9dc9-cb6d6d56df5a"
       },
       "name" : "Message Type Switch",
       "ruleChainId" : null,
@@ -136,7 +136,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "b69c1610-3f79-11ef-b3b9-cf02e18c4429"
+        "id" : "88aa4150-5edc-11ef-9dc9-cb6d6d56df5a"
       },
       "name" : "Log RPC from Device",
       "ruleChainId" : null,
@@ -158,7 +158,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "b69c8b40-3f79-11ef-b3b9-cf02e18c4429"
+        "id" : "88aa6860-5edc-11ef-9dc9-cb6d6d56df5a"
       },
       "name" : "Log Other",
       "ruleChainId" : null,
@@ -178,7 +178,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "b69d0070-3f79-11ef-b3b9-cf02e18c4429"
+        "id" : "88aa6861-5edc-11ef-9dc9-cb6d6d56df5a"
       },
       "name" : "RPC Call Request",
       "ruleChainId" : null,
@@ -200,7 +200,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "b69d75a0-3f79-11ef-b3b9-cf02e18c4429"
+        "id" : "88aab680-5edc-11ef-9dc9-cb6d6d56df5a"
       },
       "name" : "Device Profile Node",
       "ruleChainId" : null,
@@ -209,8 +209,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 456,
-        "layoutY" : 463
+        "layoutX" : 487,
+        "layoutY" : 646
       },
       "configuration" : {
         "version" : 0
@@ -221,22 +221,20 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "8eab3460-5711-11ef-b362-61b25db9ebb8"
+        "id" : "c3036f20-6143-11ef-bc6d-517f4518cf92"
       },
-      "name" : "add video",
+      "name" : "addGuide",
       "ruleChainId" : null,
       "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.transform.TbMsgAddVideoFrameBodyNode"
+      "type" : "org.thingsboard.rule.engine.transform.TbMsgAddGuidNode"
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 582,
-        "layoutY" : 595
+        "layoutX" : 793,
+        "layoutY" : 613
       },
       "configuration" : {
-        "scriptLang" : "TBEL",
-        "jsScript" : "return '\\nIncoming message:\\n' + JSON.stringify(msg) + '\\nIncoming metadata:\\n' + JSON.stringify(metadata);",
-        "tbelScript" : "return '\\nIncoming message:\\n' + JSON.stringify(msg) + '\\nIncoming metadata:\\n' + JSON.stringify(metadata);"
+        "version" : 0
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
@@ -244,12 +242,12 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "a3e689b0-5711-11ef-b362-61b25db9ebb8"
+        "id" : "028ff040-6145-11ef-9f56-a38857be55a2"
       },
-      "name" : "log add video",
+      "name" : "addVideo",
       "ruleChainId" : null,
       "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.action.TbLogNode"
+      "type" : "org.thingsboard.rule.engine.transform.TbMsgAddVideoFrameBodyNode"
     } ],
     "ruleChainConnections" : null
   },

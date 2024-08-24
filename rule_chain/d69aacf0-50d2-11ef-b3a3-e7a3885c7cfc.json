@@ -13,7 +13,7 @@
     },
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
-      "id" : "37b776b0-5954-11ef-bfc0-a7b73bcf70fb"
+      "id" : "1cdceae0-5e41-11ef-b0b1-214127e13820"
     },
     "id" : {
       "entityType" : "RULE_CHAIN",
@@ -45,20 +45,12 @@
       "toIndex" : 5,
       "type" : "RPC Request to Device"
     }, {
-      "fromIndex" : 2,
-      "toIndex" : 7,
-      "type" : "Post attributes"
-    }, {
-      "fromIndex" : 2,
-      "toIndex" : 7,
-      "type" : "Post telemetry"
-    }, {
       "fromIndex" : 6,
       "toIndex" : 2,
       "type" : "Success"
     }, {
       "fromIndex" : 7,
-      "toIndex" : 8,
+      "toIndex" : 9,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 6,
@@ -75,11 +67,11 @@
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
-      "debugMode" : true,
+      "debugMode" : false,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "37b6b360-5954-11ef-bfc0-a7b73bcf70fb"
+        "id" : "1cdbb260-5e41-11ef-b0b1-214127e13820"
       },
       "name" : "Save Timeseries",
       "ruleChainId" : null,
@@ -99,7 +91,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "37b6da70-5954-11ef-bfc0-a7b73bcf70fb"
+        "id" : "1cdbd970-5e41-11ef-b0b1-214127e13820"
       },
       "name" : "Save Client Attributes",
       "ruleChainId" : null,
@@ -116,11 +108,11 @@
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
-      "debugMode" : true,
+      "debugMode" : false,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "37b70180-5954-11ef-bfc0-a7b73bcf70fb"
+        "id" : "1cdc2790-5e41-11ef-b0b1-214127e13820"
       },
       "name" : "Message Type Switch",
       "ruleChainId" : null,
@@ -142,7 +134,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "37b70181-5954-11ef-bfc0-a7b73bcf70fb"
+        "id" : "1cdc4ea0-5e41-11ef-b0b1-214127e13820"
       },
       "name" : "Log RPC from Device",
       "ruleChainId" : null,
@@ -164,7 +156,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "37b72890-5954-11ef-bfc0-a7b73bcf70fb"
+        "id" : "1cdc75b0-5e41-11ef-b0b1-214127e13820"
       },
       "name" : "Log Other",
       "ruleChainId" : null,
@@ -184,7 +176,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "37b74fa0-5954-11ef-bfc0-a7b73bcf70fb"
+        "id" : "1cdcc3d0-5e41-11ef-b0b1-214127e13820"
       },
       "name" : "RPC Call Request",
       "ruleChainId" : null,
@@ -206,7 +198,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "37b776b0-5954-11ef-bfc0-a7b73bcf70fb"
+        "id" : "1cdceae0-5e41-11ef-b0b1-214127e13820"
       },
       "name" : "Device Profile Node",
       "ruleChainId" : null,
@@ -223,39 +215,16 @@
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
-      "debugMode" : true,
+      "debugMode" : false,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "37b776b1-5954-11ef-bfc0-a7b73bcf70fb"
+        "id" : "1cdd11f0-5e41-11ef-b0b1-214127e13820"
       },
       "name" : "addVideo",
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.transform.TbMsgAddVideoFrameBodyNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "",
-        "layoutX" : 821,
-        "layoutY" : 130
-      },
-      "configuration" : {
-        "scriptLang" : "TBEL",
-        "jsScript" : "return '\\nIncoming message:\\n' + JSON.stringify(msg) + '\\nIncoming metadata:\\n' + JSON.stringify(metadata);",
-        "tbelScript" : "return '\\nIncoming message:\\n' + JSON.stringify(msg) + '\\nIncoming metadata:\\n' + JSON.stringify(metadata);"
-      },
-      "configurationVersion" : 0,
-      "createdTime" : 0,
-      "debugMode" : false,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "37b79dc0-5954-11ef-bfc0-a7b73bcf70fb"
-      },
-      "name" : "log extract video",
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.action.TbLogNode"
     }, {
       "additionalInfo" : {
         "description" : "",
@@ -273,12 +242,33 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "ff6b3a70-5e40-11ef-b0b1-214127e13820"
+        "id" : "1cdd6010-5e41-11ef-b0b1-214127e13820"
       },
       "name" : "script1",
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 547,
+        "layoutY" : 42
+      },
+      "configuration" : {
+        "version" : 0
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "02c0c110-6141-11ef-a2fa-b18b55c00eda"
+      },
+      "name" : "addGuid",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbMsgAddGuidNode"
     } ],
     "ruleChainConnections" : null
   },
